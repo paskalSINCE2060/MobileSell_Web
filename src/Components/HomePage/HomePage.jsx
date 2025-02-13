@@ -9,8 +9,6 @@ function HomePage() {
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">
-          <h1>Welcome to Mizan Mobile</h1>
-          <p>Find the best mobile phones at unbeatable prices</p>
           <button>Shop Now</button>
         </div>
       </section>
@@ -34,12 +32,6 @@ function HomePage() {
         </div>
       </section>
 
-      {/* Footer Section */}
-      <footer className="footer">
-        <div className="footer-content">
-          <p>&copy; 2025 Mizan Mobile. All rights reserved.</p>
-        </div>
-      </footer>
     </div>
   );
 }
