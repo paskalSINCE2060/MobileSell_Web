@@ -1,4 +1,6 @@
 import React from 'react'
+import { FaMapMarkerAlt, FaPhone, FaEnvelope } from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaInstagram  } from "react-icons/fa";
 import './Footer.css'
 
 const Footer = () => {
@@ -28,9 +30,9 @@ const Footer = () => {
             <div className="mizan-footer-col">
                 <h3>Contact Us</h3>
                 <ul>
-                    <li><i className="fas fa-map-marker-alt"></i> 123 Mobile Street, City, Country</li>
-                    <li><i className="fas fa-phone"></i> +123 456 7890</li>
-                    <li><i className="fas fa-envelope"></i> support@mizanmobileshop.com</li>
+                    <li><FaMapMarkerAlt/> 123 Mobile Street, City, Country</li>
+                    <li>< FaPhone/> +123 456 7890</li>
+                    <li>< FaEnvelope/> support@mizanmobileshop.com</li>
                 </ul>
             </div>
 
@@ -38,10 +40,9 @@ const Footer = () => {
             <div className="mizan-footer-col">
                 <h3>Follow Us</h3>
                 <div className="mizan-social-icons">
-                    <a href="#"><i className="fab fa-facebook"></i></a>
-                    <a href="#"><i className="fab fa-twitter"></i></a>
-                    <a href="#"><i className="fab fa-instagram"></i></a>
-                    <a href="#"><i className="fab fa-linkedin"></i></a>
+                    <a href="#">< FaFacebook/></a>
+                    <a href="#">< FaTwitter/></a>
+                    <a href="#">< FaInstagram /></a>
                 </div>
             </div>
         </div>
