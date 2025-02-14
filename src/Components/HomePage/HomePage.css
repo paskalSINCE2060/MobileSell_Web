@@ -1,7 +1,7 @@
 
   
   .hero {
-    background: url('../../assets//hero_image.png') no-repeat center center;
+    background: url('../../assets//heroImage.png') no-repeat center center;
     background-size: cover;
     color: white;
     text-align: center;
@@ -225,6 +225,60 @@
 .different-equipment.add-button:hover {
   background-color: #f1612d;
 }
+
+
+/* Header Section */
+.banner-content-header {
+  text-align: center;
+  padding: 10px;
+}
+
+.banner-content-banner img {
+  max-width: 100%;
+  width: 100%;
+  height: 300px;
+}
+
+/* Services Section */
+.banner-content-services {
+  text-align: center;
+  padding: 20px;
+}
+
+.banner-content-services h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: left;
+  margin-left: 60px;
+}
+
+.banner-content-services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Service Items */
+.banner-content-service {
+  width: 150px;
+  text-align: center;
+}
+
+.banner-content-service img {
+  width: 100%;
+  max-width: 120px;
+  height: 100px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .banner-content-services-container {
+      flex-direction: column;
+      align-items: center;
+  }
+}
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
